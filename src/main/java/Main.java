@@ -27,6 +27,9 @@ public class Main {
         userMasha.setName("NewNameMasha");
         userService.updateUser(userMasha);
 
+
+        System.out.println(userService.findUser(1).getAutoList());  ;
+
         System.out.println(userService.findAllUsers());
 
 
